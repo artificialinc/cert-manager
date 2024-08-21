@@ -46,7 +46,7 @@ const (
 
 	// How long to wait for an authorization response from the ACME server in acceptChallenge()
 	// before giving up
-	authorizationTimeout = 20 * time.Second
+	authorizationTimeout = 120 * time.Second
 )
 
 // solver solves ACME challenges by presenting the given token and key in an
